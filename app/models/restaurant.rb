@@ -19,11 +19,11 @@ end
 
 # READ ONE
 
-# Restaurant.find(id)
+# Restaurant.find(id) => returns first instance that matches
 
-# Restaurant.find_by(name: "")
-# Restaurant.find_by(address: "")
-# Restaurant.find_by_name("")
+# Restaurant.find_by(name: "") => returns first instance that matches
+# Restaurant.find_by(address: "") => returns first instance that matches
+# Restaurant.find_by_name("") => returns first instance that matches
 
 # DELETE
 
@@ -34,7 +34,7 @@ end
 
 # Restaurant.count => integer
 
-# Restaurant.where(column: "")
-# Restaurant.where("name LIKE ?", "%Burger%")
+# Restaurant.where(column: "") => array of instances
+# Restaurant.where("name LIKE ?", "%Burger%")  => array of instances
 
 # Restaurant.order(created_at: :desc)
